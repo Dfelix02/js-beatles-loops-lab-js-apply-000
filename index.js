@@ -13,13 +13,13 @@ function theBeatlesPlay(musicians,instruments)
 
 function johnLennonFacts(facts)
 {
-  let arr = [""];
+  let arr = [];
   let fact = "";
   let i = 0;
   while(i<=facts.length)
   {
-    fact= facts[i];
-    arr[i]=fact + "!!!";
+    fact= facts[i]"!!!";
+    arr[i]=fact;
     i++;
   }
   return arr;
