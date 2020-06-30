@@ -18,7 +18,7 @@ function johnLennonFacts(facts)
   let i = 0;
   while(i<=facts.lenght)
   {
-    fact= facts + "!!!";
+    fact= facts[i] + "!!!";
     arr[i]=fact;
     i++;
   }
@@ -34,6 +34,6 @@ function iLoveTheBeatles(num)
     emptyArray[i]="I love the Beatles!" ;
     i++;
     num++;
-  }while(i<15)
+  }while(i<15||i-num===0)
   return emptyArray;
 }
