@@ -1,10 +1,12 @@
 function theBeatlesPlay(musicians,instruments)
-{
+{ 
+  var muc = musicians;
+  var inst = instruments;
   var arr = [];
   var str = "";
   for(var i = 0;i<musicians.lenght;i++)
   {
-    str = musicians + " plays "+ instruments;
+    str = muc[i] + " plays "+ inst[i];
     arr= str;
   }
   return arr;
