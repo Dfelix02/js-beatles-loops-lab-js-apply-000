@@ -16,6 +16,7 @@ function johnLennonFacts(facts)
   {
     console.log(arr);
     arr[i]=arr[i]+"!!!";
+    console.log(arr);
     i++;
   }
   return arr;
