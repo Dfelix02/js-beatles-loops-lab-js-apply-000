@@ -28,10 +28,12 @@ function johnLennonFacts(facts)
 function iLoveTheBeatles(num)
 {
   let emptyArray = [];
+  let i = 0;
   do 
   {
     emptyArray[i]="I love the Beatles!" ;
     num++;
+    i++;
   }while(num<15)
   
   return emptyArray[0];
