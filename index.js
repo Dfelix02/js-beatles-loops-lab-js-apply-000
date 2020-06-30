@@ -28,13 +28,12 @@ function johnLennonFacts(facts)
 function iLoveTheBeatles(num)
 {
   let emptyArray = [];
-  let i = 0;
   do 
   {
     emptyArray[i]="I love the Beatles!" ;
-    i++;
     num++;
-  }while(i<15&&15-num!==0)
+  }while(num<15)
+  
   if(num === 7)
   {
    return emptyArray;
