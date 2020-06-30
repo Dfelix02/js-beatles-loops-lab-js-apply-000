@@ -34,12 +34,6 @@ function iLoveTheBeatles(num)
     num++;
   }while(num<15)
   
-  if(num === 7)
-  {
-   return emptyArray;
-  }
-  else
-  {
   return emptyArray[0];
-  }
+  
 }
