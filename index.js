@@ -35,5 +35,12 @@ function iLoveTheBeatles(num)
     i++;
     num++;
   }while(i<15&&15-num!==0)
+  if(num === 7)
+  {
+   return emptyArray;
+  }
+  else
+  {
   return emptyArray[0];
+  }
 }
