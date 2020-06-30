@@ -2,12 +2,13 @@ function theBeatlesPlay(musicians,instruments)
 { 
   var arr = [];
   var str = "";
+  
   for(var i = 0;i<musicians.lenght;i++)
   {
     str = musicians[i] + " plays "+ instruments[i];
-    arr= str;
+    arr[i]= str;
   }
-  return console.log(arr);
+  return arr;
 }
 
 function johnLennonFacts(facts)
