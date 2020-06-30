@@ -3,7 +3,7 @@ function theBeatlesPlay(musicians,instruments)
   let arr = [];
   let str = "";
   
-  for(let i = 0;i<musicians.lenght;i++)
+  for(let i = 0;i<musicians.length;i++)
   {
     str = musicians[i] + " plays "+ instruments[i];
     arr[i]= str;
@@ -16,7 +16,7 @@ function johnLennonFacts(facts)
   let arr = [""];
   let fact = "";
   let i = 0;
-  while(i<=facts.lenght)
+  while(i<=facts.length)
   {
     fact= facts[i];
     arr[i]=fact + "!!!";
