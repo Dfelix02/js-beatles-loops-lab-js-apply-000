@@ -36,6 +36,6 @@ function iLoveTheBeatles(num)
     i++;
   }while(num<15)
   
-  return emptyArray[0];
+  return emptyArray;
   
 }
