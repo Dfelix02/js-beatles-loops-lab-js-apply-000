@@ -1,9 +1,11 @@
 function theBeatlesPlay(musicians,instruments)
 {
   var arr = [];
+  var str = "";
   for(var i = 0;i<musicians.lenght;i++)
   {
-    arr= musicians + " plays "+ instruments;
+    str = musicians + " plays "+ instruments;
+    arr= str;
   }
   return arr;
 }
