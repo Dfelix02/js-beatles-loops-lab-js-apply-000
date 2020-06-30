@@ -14,10 +14,11 @@ function johnLennonFacts(facts)
   var i = 0;
   while(i<=facts.lenght)
   {
-    console.log(arr[i] = facts[i] + "!!!");
+    console.log(arr);
+    arr[i]=arr[i]+"!!!";
     i++;
   }
-  return arr;
+  return console.log(arr);
 }
 
 function iLoveTheBeatles(num)
